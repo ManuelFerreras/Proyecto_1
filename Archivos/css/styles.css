@@ -97,6 +97,11 @@ h4 {
     display: flex;
 }
 
+.contenido-centrado {
+    max-width: 800px;
+}
+
+
 /* Navegación */
 
 .navegacion a {
@@ -234,6 +239,8 @@ main h2 {
     padding: 0;
     display: flex;
     justify-content: space-evenly;
+    max-width: 500px;
+    flex: 1;
 }
 
 .iconos-info li{
@@ -413,4 +420,16 @@ footer div {
 
 .anuncio h2{
     font-size: 3rem;
+}
+
+/* Página Anuncio */
+
+.resumen-propiedad {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.descripcion-anuncio {
+    line-height: 2;
 }
