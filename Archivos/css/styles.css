@@ -418,6 +418,10 @@ footer div {
     padding: 2rem 0 3rem 0;
 }
 
+.texto-nosotros p {
+    text-align: justify;
+}
+
 .anuncio h2{
     font-size: 3rem;
 }
@@ -432,4 +436,71 @@ footer div {
 
 .descripcion-anuncio {
     line-height: 2;
+}
+
+
+/* Contacto */
+
+form p {
+    font-size: 1.2rem;
+    color: #4f4f4f;
+    margin: 2rem 0 0 0;
+}
+
+legend {
+    font-size: 1.6rem;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: .9rem;
+    margin-top: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+input:not([type="submit"]),
+textarea,
+select {
+    padding: 1rem;
+    display: block;
+    width: 100%;
+    background-color: #e1e1e1;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+input[type="radio"] {
+    width: auto;
+    padding: 0;
+    margin-bottom: .9rem;
+    margin-top: 2rem;
+}
+
+select {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+textarea {
+    height: 20rem;
+}
+
+.forma-contacto {
+    max-width: 15rem;
+
+}
+
+.sub-forma {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input[type="submit"] {
+    border: none;
+    cursor: pointer;
 }
